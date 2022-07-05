@@ -1,72 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="resume.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><button><a href="#HOME"class="links">HOME</a></li></button></li>
-            <li><button><a href="#WORK"class="links">WORK</a></button></li>
-            <li><button><a href="#SKILLS"class="links">SKILLS</a></button></li>
-            <li><button><a href="#CONTACT"class="links">CONTACT</a></button></li>
-        </ul>
-    </nav>
-    <header id="ABOUT">
-    <img id="pic" src="ragul.jpeg">
-    <h1 id="hi">HI EVERYONE!!!</h1><br><br><br><br><br><br><br><br>
-    <h1 id="text">PERSONAL INFO:</h1>
-    <div id="p">
-        <h1><br>NAME:R.GAUTHAMA RAGUL</h1>
-        <h1>D.O.B:04/06/2003</h1>
-        <h1>DEGREE:B.E.ELECTRICAL AND ELECTRONICS ENGINEERING</h1>
-        <h1>GENDER:MALE</h1>
-        <h1>COLLEGE:SKCET</h1>
-    </div>
-    </header>
-    <header id="WORK">
-       <br><br><br><br><br><br><br><br><h1 id="work">WORK:</h1>
-        <br><br><br><br><p id="para"><B>
-            I AM CURRENTLY STUDING IN SRI KRISHNA COLLEGE OF ENGINEERINGAND TECHNOLOGY
-        </B></p>
+*{
+    margin: 0;
+    padding-left: 1%;
+}
+body{
+    background-color: ivory;
+    font-size: 15px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    right: 5px;
+    padding: 40px 40px;
+    padding-left: 60%;
+    font-size: 0%;
+}
+button{
+    font-size: 30px;
+    color: black;
+}
+li{
+    padding-right: 20px;
+}
+.links{
+    text-decoration: none;
+    cursor: pointer;
+}
+#name{
+    color: red;
+    font-size:20px;
+    padding-right: 120px;
+}
+#pic{
+    height:300px;
+    width: 200px;
+    border-radius:50%;
+    
+}
+#text{
+    color:red;
+    font-size:40px;
+}
+#p{
+    font-size:15px;
+    margin: 0px 10px 0px 60px;
+}
+.SKILLS{
+    width: 200px;
+    height: 200px;
+    background: rgb(149, 147, 147);
+}
 
-        <br><br><br><br><br><br><br><h1 id="np1">Done my nptel soft skills:</h1>
-        <br><br><br><br><br><br><br><br><img id="np" src="NPTEL.jpeg">>
+progress[value]{
+    height: 60px;
+    width: 600px;
+}
+#sk1{
+    text-align: center;
+    font-size: 300%;
+}
 
+#work{
+    color: blueviolet;
+}
 
-    </header>
-    <header id="SKILLS">
-        <h1 id="sk"><br><br><br><br><br><br><br><br><br><br><br><br>MY SKILLS ARE:</h1><br><br><br><br><br><br>
-        <div id="sk1">
-            <label for="file">PROBLEM SOLVING</label><br><br>
-            <progress id="file" value="90" max="100"> 90% </progress>
-            <br><br><label for="file1">PYTHON</label><br><br>
-            <progress id="file1" value="90" max="100"> 90% </progress>
-            <br><br><label for="file2">WEB DEVELOPMENT</label><br><br>
-            <progress id="file2" value="80" max="100"> 80% </progress>
-            <br><br><label for="file3">C PROGRAMING</label><br><br>
-            <progress id="file3" value="85" max="100"> 85% </progress>
-            <br><br><label for="file4">PYTHON</label><br><br>
-            <progress id="file4" value="90" max="100"> 90% </progress>
-            <br><br><label for="file">TECHNICAL SKILLS</label><br><br>
-            <progress id="file" value="90" max="100"> 90% </progress>
-        </div>
-    </header><br>
-    <hr id="hr">
-    <header id="CONTACT">
-        <br><br><br><br><br><br><h1><button>CONTACT DETAILS</button></h1>
-        <h1>WEBSITE LINK:<br><br></h1>
-        <h1 id="t"><a href="https://ragul4.github.io/rgr/">https://ragul4.github.io/rgr/</a></h1><br><br><br><br></h1>
-        <h1>PHONE.NO:<br><br></h1>
-        <h1 id="t">9789320096</h1><br><br><br><br></h1>
-        <h1>COLLEGE MAIL ID:<br><br></h1>
-        <h1 id="t"><a href="https://mail.google.com/mail/u/0/#inbox">727721euee023@skcet.ac.in</a><br><br><br><br></h1>
-        <h1>PERSONAL MAIL ID:<br><br></h1>
-        <h1 id="t"><a href="https://mail.google.com/mail/u/0/#inbox">rgauthamaragul@gmail.com</a></h1>
-    </header>
-</body>
-</html>
+#para{
+    size: 100%;
+}
+
+#np1{
+    color: blueviolet;
+    width: 80%;
+}
+#hi{
+    text-align: center;
+    font-size: 500%;
+    color: blue;
+}
+#WORK{
+    background-color: sandybrown;
+}
+
+#SKILLS{
+    background-color: mediumpurple;
+}
+#hr{
+    height: 200%;
+    width: 200%;
+}
+
+#t{
+    transform: translate(40px);
+}
