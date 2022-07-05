@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(104, 115, 160);
+    font-size: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    right: 5px;
+    padding: 20px 20px;
+}
+li{
+    padding-right: 20px;
+}
+.links{
+    text-decoration: none;
+    cursor: pointer;
+}
+#name{
+    color: red;
+    font-size:20px;
+    padding-right: 120px;
+}
+#pic{
+    height:300px;
+    width: 200px;
+    border-radius:50%;
+    
+}
+#text{
+    color:red;
+    font-size:40px;
+}
+#p{
+    font-size:15px;
+    margin: 0px 10px 0px 60px;
+}
+.SKILLS{
+    width: 200px;
+    height: 200px;
+    background: rgb(149, 147, 147);
+}
