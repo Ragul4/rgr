@@ -1,18 +1,24 @@
 *{
     margin: 0;
-    padding: 0;
+    padding-left: 1%;
 }
 body{
-    background-color: rgb(104, 115, 160);
+    background-color: ivory;
     font-size: 15px;
 }
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     right: 5px;
-    padding: 20px 20px;
+    padding: 40px 40px;
+    padding-left: 60%;
+    font-size: 0%;
+}
+button{
+    font-size: 30px;
+    color: black;
 }
 li{
     padding-right: 20px;
@@ -44,4 +50,46 @@ li{
     width: 200px;
     height: 200px;
     background: rgb(149, 147, 147);
+}
+
+progress[value]{
+    height: 60px;
+    width: 600px;
+}
+#sk1{
+    text-align: center;
+    font-size: 300%;
+}
+
+#work{
+    color: blueviolet;
+}
+
+#para{
+    size: 100%;
+}
+
+#np1{
+    color: blueviolet;
+    width: 80%;
+}
+#hi{
+    text-align: center;
+    font-size: 500%;
+    color: blue;
+}
+#WORK{
+    background-color: sandybrown;
+}
+
+#SKILLS{
+    background-color: mediumpurple;
+}
+#hr{
+    height: 200%;
+    width: 200%;
+}
+
+#t{
+    transform: translate(40px);
 }
