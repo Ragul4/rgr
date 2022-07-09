@@ -1,10 +1,11 @@
 *{
     margin: 0;
-    padding-left: 1%;
+    padding: 3px;
 }
 body{
     background-color: ivory;
     font-size: 15px;
+    margin-right: 680px;
 }
 nav ul {
     display: flex;
@@ -13,7 +14,7 @@ nav ul {
     list-style: none;
     right: 5px;
     padding: 40px 40px;
-    padding-left: 60%;
+    padding-left: 750px;
     font-size: 0%;
 }
 button{
@@ -44,7 +45,7 @@ li{
 }
 #p{
     font-size:15px;
-    margin: 0px 10px 0px 60px;
+    width:1000px;
 }
 .SKILLS{
     width: 200px;
@@ -57,7 +58,7 @@ progress[value]{
     width: 600px;
 }
 #sk1{
-    text-align: center;
+    transform: translate(80px);
     font-size: 300%;
 }
 
@@ -71,7 +72,7 @@ progress[value]{
 
 #np1{
     color: blueviolet;
-    width: 80%;
+    width: 100%;
 }
 #hi{
     text-align: center;
@@ -79,11 +80,33 @@ progress[value]{
     color: blue;
 }
 #WORK{
-    background-color: sandybrown;
+    background-color: rgb(92, 86, 116);
+    width: 1100px;
+    padding-left: 380px;
+    font-size: 200%;
+    color: brown;
+}
+#work{
+    transform: translate(-100px);
+    color: brown;
+}
+#para{
+    transform: translate(-100px);
+    color: rgb(177, 24, 108);
+}
+#np{
+    transform: translate(100px);
+    color: brown;
+}
+#np1{
+    transform: translate(-130px);
+    color: brown;
 }
 
 #SKILLS{
     background-color: mediumpurple;
+    width: 1100px;
+    padding-left: 380px;
 }
 #hr{
     height: 200%;
@@ -92,4 +115,34 @@ progress[value]{
 
 #t{
     transform: translate(40px);
+}
+#np{
+    height: 500px;
+    width: 500px;
+}
+
+#u{
+    height: 100px;
+    width: 100px;
+}
+
+#n{
+    font-size: 40px;
+}
+
+#i{
+    transform: translate(900px,-700px);
+}
+#u{
+    transform: translate(80px);
+}
+#c{
+    width: 180%;
+}
+#sk{
+    font-size: 500%;
+}
+#x{
+    height: 100px;
+    width: 100px;
 }
